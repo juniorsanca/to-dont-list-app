@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e99b652-3914-4a82-ae2f-5b980639d2fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/views/Newtodo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Todos.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Login.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Me.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Me.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Register.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Register.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Newtodo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Newtodo.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +66,7 @@
       <workItem from="1621265927454" duration="254000" />
       <workItem from="1621458893428" duration="1561000" />
       <workItem from="1621906204200" duration="8692000" />
+      <workItem from="1621917004280" duration="1830000" />
     </task>
     <servers />
   </component>

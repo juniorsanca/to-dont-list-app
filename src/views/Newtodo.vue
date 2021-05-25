@@ -2,7 +2,7 @@
     <div>
         <h1 class="d-grid col-8 mx-auto">Ajouter une tâche</h1>
 
-        <div class="addTodo">
+        <form class="addTodo">
             <div class="mb-3">
                 <label for="name" class="form-label">Titre</label>
                 <input placeholder="title task..." type="text" class="form-control" id="name" name="name" v-model="todo.name">
@@ -14,13 +14,14 @@
             </div>
 
             <button type="submit" @click="addTodo()" class="btn btn-info d-grid gap-2 col-6 mx-auto" style="color: white">AJOUTER</button>
-        </div>
+        </form>
     </div>
 </template>
 
 <script>
     import axios from 'axios'
     import { mapActions } from 'vuex'
+    import { mapGetters } from 'vuex'
 
     export default {
         name: "Newtodo",
@@ -39,10 +40,6 @@
                 axios.post('http://127.0.0.1:8000/api/todos', {
                     todo: this.todo
                 })
-            },
-
-            computed: {
-                ...mapActions({'create': 'todos'}),
             },
         }
     }
