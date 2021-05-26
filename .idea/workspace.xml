@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e99b652-3914-4a82-ae2f-5b980639d2fc" name="Default Changelist" comment="" />
+    <list default="true" id="2e99b652-3914-4a82-ae2f-5b980639d2fc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/04c9a2af4c2fdde8e6a9caa12572323d.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/04c9a2af4c2fdde8e6a9caa12572323d.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/1438891574fa264640f50be178a6ae84.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/1438891574fa264640f50be178a6ae84.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/1b0c5fa18a628af8130a772df4f3996e.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/1b0c5fa18a628af8130a772df4f3996e.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/c26b3692cc1b3d1353654afb8791cc82.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/c26b3692cc1b3d1353654afb8791cc82.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/dc675d6a4a42f38c96269308c53cc01f.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/dc675d6a4a42f38c96269308c53cc01f.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/fb354acb40d14c6df8b31b9a57b97267.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/fb354acb40d14c6df8b31b9a57b97267.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/modules/auth/getters.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/modules/auth/getters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Newtodo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Newtodo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Todos.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Todos.vue" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +74,8 @@
       <workItem from="1621265927454" duration="254000" />
       <workItem from="1621458893428" duration="1561000" />
       <workItem from="1621906204200" duration="8692000" />
-      <workItem from="1621917004280" duration="1952000" />
+      <workItem from="1621917004280" duration="2273000" />
+      <workItem from="1622044100493" duration="2244000" />
     </task>
     <servers />
   </component>

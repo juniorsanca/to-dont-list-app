@@ -16,14 +16,21 @@
     import { mapActions } from 'vuex'
 
     export default {
-        name: "Newtodo",
-        data() {
+        name: "Todos",
+        data () {
             return {
-                form: {}
-            };
+                info: ''
+            }
         },
-        methods: {
-            ...mapActions({'create': 'todos'})
+
+        mounted () {
+            axios
+                .get(`http://127.0.0.1:8000/api/todos`)
+                .then(( response) => {
+                    response.data
+                    this.info = response.data
+                    console.log(this.info)
+                });
         }
     }
 </script>

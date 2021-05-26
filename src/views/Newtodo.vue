@@ -13,7 +13,7 @@
                 <input placeholder="your task..." type="text" class="form-control" id="text" name="text" v-model="todo.body">
             </div>
 
-            <button type="submit" @click="addTodo()" class="btn btn-info d-grid gap-2 col-6 mx-auto" style="color: white">AJOUTER</button>
+            <button type="submit" @click.prevent="addTodo()" class="btn btn-info d-grid gap-2 col-6 mx-auto" style="color: white">AJOUTER</button>
         </form>
     </div>
 </template>
@@ -35,11 +35,21 @@
                 },
             };
         },
+
+        computed: {
+            ...mapGetters({'token': 'auth/token'})
+        },
         methods: {
             addTodo() {
-                axios.post('http://127.0.0.1:8000/api/todos', {
-                    todo: this.todo
-                })
+                const config = {
+                    headers: {
+                        Authorization: `Bearer ${this.token}` ,
+                    },
+                }
+                console.log(config)
+                axios.post('http://127.0.0.1:8000/api/todos',this.todo,
+                    config
+                ).then((response)=> (console.log(response.data)))
             },
         }
     }
