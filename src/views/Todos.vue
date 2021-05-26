@@ -5,7 +5,7 @@
             <div class="list-group">
                 <label class="list-group-item">
                     <input class="form-check-input me-1" type="checkbox" value="">
-                    First checkbox
+                    {{info}}
                 </label>
             </div>
     </div>
@@ -13,24 +13,35 @@
 
 <script>
     import axios from 'axios'
-    import { mapActions } from 'vuex'
+    import {mapActions, mapGetters} from 'vuex'
 
     export default {
         name: "Todos",
-        data () {
+
+        data: function() {
             return {
-                info: ''
-            }
+             info: ''
+            };
+        },
+
+        computed: {
+            ...mapGetters({'token': 'auth/token'})
         },
 
         mounted () {
+            const config = {
+                headers: {
+                    Authorization: `Bearer ${this.token}` ,
+                },
+            }
             axios
-                .get(`http://127.0.0.1:8000/api/todos`)
-                .then(( response) => {
-                    response.data
-                    this.info = response.data
-                    console.log(this.info)
-                });
+                .get(`http://127.0.0.1:8000/api/todos`,
+                    config
+                ).then((response)=> {
+                const i = response.data
+                console.log(i[0].name)
+                }
+            )
         }
     }
 </script>
